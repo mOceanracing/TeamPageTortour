@@ -7,214 +7,253 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-body {font-family: "Lato", sans-serif}
-.mySlides {display: none}
+    body {font-family: "Lato", sans-serif}
+    .mySlides {display: none}
 </style>
 <body>
 
 <!-- Navbar -->
 <div class="w3-top">
-  <div class="w3-bar w3-black w3-card-2">
-    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
-    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Team</a>
-    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Rennen</a>
-    <a href="#sponsor" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Sponsoren</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Kontakt</a>
-    <div class="w3-dropdown-hover w3-hide-small">
-      <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
-      <div class="w3-dropdown-content w3-bar-block w3-card-4">
-        <a href="#" class="w3-bar-item w3-button">Merchandise</a>
-        <a href="#" class="w3-bar-item w3-button">Extras</a>
-        <a href="#" class="w3-bar-item w3-button">Media</a>
-      </div>
+    <div class="w3-bar w3-black w3-card-2">
+        <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+        <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+        <a href="#team" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Team</a>
+        <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Rennen</a>
+        <a href="#sponsor" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Sponsoren</a>
+        <a href="#impressions" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Impressionen</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Kontakt</a>
+        <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
     </div>
-    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
-  </div>
 </div>
 
 <!-- Navbar on small screens -->
 <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
-  <a href="#band" class="w3-bar-item w3-button w3-padding-large">Team</a>
-  <a href="#tour" class="w3-bar-item w3-button w3-padding-large">Rennen</a>
-  <a href="#sponsor" class="w3-bar-item w3-button w3-padding-large">Rennen</a>
-  <a href="#contact" class="w3-bar-item w3-button w3-padding-large">CONTACT</a>
-  <a href="#" class="w3-bar-item w3-button w3-padding-large">MERCH</a>
+    <a href="#team" class="w3-bar-item w3-button w3-padding-large">Team</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large">Rennen</a>
+    <a href="#sponsor" class="w3-bar-item w3-button w3-padding-large">Rennen</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large">CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">MERCH</a>
 </div>
 
 <!-- Page content -->
 <div class="w3-content" style="max-width:2000px;margin-top:46px">
 
-  <!-- Automatic Slideshow Images -->
-   <div class="mySlides w3-display-container w3-center">
-    <img src="./images/slides/gopro.JPG" style="width:100%">
-    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
-      <h3>Auf der Strasse</h3>
+    <!-- Automatic Slideshow Images -->
+    <div class="mySlides w3-display-container w3-center">
+        <img src="./images/slides/gopro.JPG" style="width:100%">
+        <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+            <h1>Saison 2017</h1>
+        </div>
     </div>
-  </div>
-  <div class="mySlides w3-display-container w3-center">
-    <img src="./images/slides/tessin.jpg" style="width:100%">
-    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
-      <h3>Los Angeles</h3>
-    </div>
-  </div>
-  <div class="mySlides w3-display-container w3-center">
-    <img src="./images/slides/tessin.jpg" style="width:100%">
-    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
-      <h3>Chicago</h3>
-      <p><b>Thank you, Chicago - A night we won't forget.</b></p>    
-    </div>
-  </div>
+</div>
 
-  <!-- The Band Section -->
-  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
-    <h2 class="w3-wide">Das team </h2>
-    <p class="w3-opacity"><i>We love music</i></p>
-    <p class="w3-justify">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-      ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
-      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+<!-- Team Section -->
+<div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="team">
+    <h2 class="w3-wide">Das Team </h2>
+    <p class="w3-justify">Patrick und Marc sind 2 aufgestellte Kollegen, die ihre Freizeit am Liebsten mit biken verbringen. Ob auf dem Rennvelo oder dem Mountainbike, sie fühlen sich auf den Strassen wie den heimischen Wäldern gleichwohl zu hause.
+
+        Von Frühjahr bis Herbst nehmen sie als Team an diversen Langstreckenrennen teil. Die Höhepunkte der Saison bilden sowohl der Engadiner Radmarathon mit XY Höhenmetern als auch das 24-Stundenrennen von Schötz. Das absolute Highligth bildet jedoch im August die Team-Teilnahme an der Tortour, welche als Nonstop-Ultracycling-Event von beiden Teilnehmern höchste Konzentration und intensive Trainingsvorbereitung abverlangt.
+        <br
+                All diese Teilnahmen werden erst durch den finanziellen Einsatz von Sponsoren ermöglicht – ihnen gilt ein herzliches Dankeschön.</p>
     <div class="w3-row w3-padding-32">
-      <div class="w3-third">
-        <p>Patrick Stadelmann</p>
-        <img src="./images/team/marc.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:100%">
-      </div>
-      <div class="w3-third">
-        <p></p>
-		</div>
-      <div class="w3-third">
-        <p>Marc Kissling</p>
-        <img src="./images/team/marc.jpg" class="w3-round" alt="Random Name" style="width:100%">
-      </div>
+        <div class="w3-third">
+            <p>Patrick Stadelmann</p>
+            <img src="./images/team/patrick.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:100%">
+        </div>
+        <div class="w3-third">
+            <p></p>
+        </div>
+        <div class="w3-third">
+            <p>Marc Kissling</p>
+            <img src="./images/team/marc.jpg" class="w3-round" alt="Random Name" style="width:100%">
+        </div>
     </div>
-  </div>
+</div>
 
-  <!-- Races -->
-  <div class="w3-black" id="tour">
+<!-- Races -->
+<div class="w3-black" id="tour">
     <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
-      <h2 class="w3-wide w3-center">Rennen</h2>
-      <p class="w3-opacity w3-center"><i>Unser Rennplan</i></p><br>
+        <h2 class="w3-wide w3-center">Rennen</h2>
+        <p class="w3-opacity w3-center"><i>Unser Rennplan</i></p><br>
 
-      <ul class="w3-ul w3-border w3-white w3-text-grey">
-		<li class="w3-padding">Mai: 	&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp	20. Kreuzegg Classic</li>
-		<li class="w3-padding">Juni: 	&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp	03. H&ouml;rnli Bikerennen</li>
-        <li class="w3-padding">Juli: 	&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp	09.	Engadin Radmaraton</li>
-        <li class="w3-padding">Ausgust: &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp   5.-6. 24h Rennen Sch&ouml;tz &nbsp &nbsp / &nbsp &nbsp 17.-19. Tortour</li>
-        <li class="w3-padding">September: &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 23. Bikerace Tuttwil </li>
-      </ul>
-	
-	<p class="w3-opacity w3-center"><i>Die Saisonhighlight's</i></p><br>
-      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
-        <div class="w3-third w3-margin-bottom">
-          <img src="./images/races/engadin_radmaraton.png" alt="Engadin Radmarathon" style="width:100%" class="w3-hover-opacity">
-          <div class="w3-container w3-white">
-            <p><b>Engadin Radmarathon</b></p>
-            <p class="w3-opacity">9. Juli 2017</p>
-            <p>Der Engadin Radmarathon geh&ouml;rt zu den bekanntesten,  gr&ouml;ssten & sch&ouml;nsten Radmarathons der Schweiz. Die Veranstaltung ist Teil der Swiss Cycling Top Tour, f&uuml;r die sich Rennen qualifizieren, die sich durch Spitzenqualit&auml;t, Panorama und wundersch&ouml;ne Landschaft auszeichnen.</p>
-          </div>
-        </div>
-        <div class="w3-third w3-margin-bottom">
-          <img src="./images/races/24_stundenrennen_schoetz.jpg" alt="24h Renen Sch&ouml;tz" style="width:100%" class="w3-hover-opacity">
-          <div class="w3-container w3-white">
-            <p><b>24h Renen Sch&ouml;tz</b></p>
-            <p class="w3-opacity">05.-06. August 2017</p>
-            <p>Die CHALLENGE ist ein eigenes, k&uuml;rzeres Rennformat im Rahmen der TORTOUR. Die ca. 525 km und knapp 7000 H&ouml;henmetern erlauben eine einfachere Vorbereitung, weniger Aufwand und trotzdem einen tollen Wettkampf.</p>
-          </div>
-        </div>
-        <div class="w3-third w3-margin-bottom">
-          <img src="./images/races/tortour.png" alt="San Francisco" style="width:50%" class="w3-hover-opacity">
-          <div class="w3-container w3-white">
-            <p><b>Nonstop-Ultracycling-Event Tortour</b></p>
-            <p class="w3-opacity">17.-19. August 2017</p>
-            <p>Die CHALLENGE ist ein eigenes, k&uuml;rzeres Rennformat im Rahmen der TORTOUR. Die ca. 525 km und knapp 7000 H&ouml;henmetern erlauben eine einfachere Vorbereitung, weniger Aufwand und trotzdem einen tollen Wettkampf.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+        <ul class="w3-ul w3-border w3-white w3-text-grey">
+            <li class="w3-padding">Mai: 	&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 	    20. Kreuzegg Classic</li>
+            <li class="w3-padding">Juni: 	&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp	        03. H&ouml;rnli Bikerennen</li>
+            <li class="w3-padding">Juli: 	&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp	09.	Engadin Radmaraton</li>
+            <li class="w3-padding">Ausgust: &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp                                 05.-06. 24h Rennen Sch&ouml;tz &nbsp &nbsp / &nbsp &nbsp 17.-19. Tortour</li>
+            <li class="w3-padding">September: &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp                                                       23. Bikerace Tuttwil </li>
+        </ul>
 
-   <!-- Sponsor Section -->
-  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="sponsor">
-       <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
-      <h2 class="w3-wide w3-center">Sponsoren</h2>
-      <p class="w3-opacity w3-center"><i>Herzlichen dank f&uuml;r die Unterst&uuml;tzung von: </i></p><br>
+        <p class="w3-opacity w3-center"><i>Die Saisonhighlight's</i></p><br>
+        <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+            <div class="w3-third w3-margin-bottom">
+                <img src="./images/races/endadin_radmaraton.PNG" alt="Engadin Radmarathon" style="width:100%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>Engadin Radmarathon</b></p>
+                    <p class="w3-opacity">9. Juli 2017</p>
+                    <p>Der Engadin Radmarathon geh&ouml;rt zu den bekanntesten,  gr&ouml;ssten & sch&ouml;nsten Radmarathons der Schweiz. Die Veranstaltung ist Teil der Swiss Cycling Top Tour, f&uuml;r die sich Rennen qualifizieren, die sich durch Spitzenqualit&auml;t, Panorama und wundersch&ouml;ne Landschaft auszeichnen.</p>
+                </div>
+            </div>
+            <div class="w3-third w3-margin-bottom">
+                <img src="./images/races/24hRennen.PNG" alt="24h Renen Sch&ouml;tz" style="width:100%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>24h Renen Sch&ouml;tz</b></p>
+                    <p class="w3-opacity">05.-06. August 2017</p>
+                    <p>Die CHALLENGE ist ein eigenes, k&uuml;rzeres Rennformat im Rahmen der TORTOUR. Die ca. 525 km und knapp 7000 H&ouml;henmetern erlauben eine einfachere Vorbereitung, weniger Aufwand und trotzdem einen tollen Wettkampf.</p>
+                </div>
+            </div>
+            <div class="w3-third w3-margin-bottom">
+                <img src="./images/races/tortour.PNG" alt="Tortour" style="width:100%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>Nonstop-Ultracycling-Event Tortour</b></p>
+                    <p class="w3-opacity">17.-19. August 2017</p>
+                    <p>Die CHALLENGE ist ein eigenes, k&uuml;rzeres Rennformat im Rahmen der TORTOUR. Die ca. 525 km und knapp 7000 H&ouml;henmetern erlauben eine einfachere Vorbereitung, weniger Aufwand und trotzdem einen tollen Wettkampf.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
-      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
-       
-        <div class="w3-third w3-margin-bottom">
-          <img src="./images/sponsoren/Creamec.jpg" alt="Creamec AG" style="width:95%" class="w3-hover-opacity">
-          <div class="w3-container w3-white">
-             <a href="https://creamec.com/"><b>Creamec AG</b></a>
-            <p class="w3-opacity">05.-06. August 2017</p>
-            <p>Deen Radmaratiss Cycling Top TPahnen.</p>
-          </div>
-       </div>
-       <div class="w3-third w3-margin-bottom">
-          <img src="./images/sponsoren/Kielholz+Partner.jpg" alt="Kielholz & Partner" style="width:95%" class="w3-hover-opacity">
-          <div class="w3-container w3-white">
-             <a href="http://www.kielholz.ch/"><b>Kielholz & Partner</b></a>
-            <p class="w3-opacity">05.-06. August 2017</p>
-            <p>Deen Radmaratiss Cycling Top TPahnen.</p>
-          </div>
+<!-- Sponsor Section -->
+<div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="sponsor">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+        <h2 class="w3-wide w3-center">Sponsoren</h2>
+        <p class="w3-opacity w3-center"><i>Herzlichen dank f&uuml;r die Unterst&uuml;tzung von: </i></p><br>
+
+        <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+
+            <div class="w3-third w3-margin-bottom">
+                <img src="./images/sponsoren/Creamec.png" alt="Creamec AG" style="width:95%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <a href="https://creamec.com/"><b>Creamec AG</b></a>
+                    <p class="w3-opacity">05.-06. August 2017</p>
+
+                </div>
+            </div>
+            <div class="w3-third w3-margin-bottom">
+                <img src="./images/sponsoren/Kielholz+Partner.png" alt="Kielholz & Partner" style="width:95%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <a href="http://www.kielholz.ch/"><b>Kielholz & Partner</b></a>
+                    <p class="w3-opacity">05.-06. August 2017</p>
+                </div>
+            </div>
+            <div class="w3-third w3-margin-bottom">
+                <img src="./images/sponsoren/AAA_Arbeit_Argentur_AG.png" alt="AAA Arbeit Argentur AG" style="width:95%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <a href="http://www.arbeitagentur.ch/"><b>AAA Arbeit Argentur AG</b></a>
+                </div>
+            </div>
+            <div class="w3-third w3-margin-bottom">
+                <img src="./images/sponsoren/Velothek.png" alt="Velothek" style="width:95%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <a href="http://www.velothek.ch/"><b>Velothek</b></a>
+                    <p class="w3-opacity">05.-06. August 2017</p>
+                </div>
+            </div>
+            <div class="w3-third w3-margin-bottom">
+                <img src="./images/sponsoren/Dorfgarage_Fredy_Schmid.png" alt="Dorfgarage Fredy Schmid M&uuml;nchwilen" style="width:90%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <a href="http://www.dorfgarage-schmid.ch/"><b>Dorfgarage Fredy Schmid M&uuml;nchwilen</b></a>
+                    <p class="w3-opacity">05.-06. August 2017</p>
+                </div>
+            </div>
+            <div class="w3-third w3-margin-bottom">
+                <img src="./images/sponsoren/Kalag.png" alt="Kalag" style="width:95%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <a href="https://kalag.ch/"><b>Kalag</b></a>
+                    <p class="w3-opacity">05.-06. August 2017</p>
+                </div>
+            </div>
         </div>
-		<div class="w3-third w3-margin-bottom">
-          <img src="./images/sponsoren/AAA_Arbeit_Argentur_AG.gif" alt="AAA Arbeit Argentur AG" style="width:95%" class="w3-hover-opacity">
-          <div class="w3-container w3-white">
-             <a href="http://www.arbeitagentur.ch/"><b>AAA Arbeit Argentur AG</b></a>
-            <p>Deen Radmaratiss Cycling Top TPahnen.</p>
-          </div>
-        </div>
-		<div class="w3-third w3-margin-bottom">
-          <img src="./images/sponsoren/Velothek.png" alt="Velothek" style="width:95%" class="w3-hover-opacity">
-          <div class="w3-container w3-white">
-             <a href="http://www.velothek.ch/"><b>Velothek</b></a>
-            <p class="w3-opacity">05.-06. August 2017</p>
-            <p>Deen Radmaratiss Cycling Top TPahnen.</p>
-          </div>
-        </div>
-		 <div class="w3-third w3-margin-bottom">
-          <img src="./images/sponsoren/Dorfgarage_Fredy_Schmid.PNG" alt="Dorfgarage Fredy Schmid M&uuml;nchwilen" style="width:95%" class="w3-hover-opacity">
-          <div class="w3-container w3-white">
-             <a href="http://www.dorfgarage-schmid.ch/"><b>Dorfgarage Fredy Schmid M&uuml;nchwilen</b></a>
-            <p class="w3-opacity">05.-06. August 2017</p>
-            <p>Deen Radmaratiss Cycling Top TPahnen.</p>
-          </div>
-        </div>
-		 <div class="w3-third w3-margin-bottom">
-          <img src="./images/sponsoren/Kalag.png" alt="Kalag" style="width:95%" class="w3-hover-opacity">
-          <div class="w3-container w3-white">
-            <a href="https://kalag.ch/"><b>Kalag</b></a>
-            <p class="w3-opacity">05.-06. August 2017</p>
-            <p>Deen Radmaratiss Cycling Top TPahnen.</p>
-          </div>
-      </div>
     </div>
-	
-  </div>
-  
-  
-  <!-- The Contact Section -->
-   <div class="w3-black" id="contact">
-	 <h2 class="w3-wide w3-center">CONTACT</h2>
-    <p class="w3-opacity w3-center"><i>Fan? Drop a note!</i></p>
-    <div class="w3-row w3-padding-32">
-       <div class="w3-col m6 w3-large w3-margin-bottom">
-		<p>Patrick Stadelmann</p>
-        <i class="fa fa-map-marker" style="width:30px"></i> St. Margarethen, TG<br>
-        <i class="fa fa-phone" style="width:30px"></i> Phone: +79 339 40 81<br>
-        <i class="fa fa-envelope" style="width:30px"> </i> Email: patrick.stadelmann@outlook.com<br>
-      </div>
-	  <div class="w3-col m6 w3-large w3-margin-bottom">
-		<p>Marc Kissling</p>
-        <i class="fa fa-map-marker" style="width:30px"></i> Zuzwil, SG<br>
-        <i class="fa fa-phone" style="width:30px"></i> Phone: +76 417 14 15<br>
-        <i class="fa fa-envelope" style="width:30px"> </i> Email: marc.kissling@outlook.com<br>
-      </div>
+</div>
+
+
+
+
+<!-- video Section -->
+
+<div class=" w3-black" id="impressions">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+        <h2 class="w3-wide w3-center">Impressionen</h2>
+
+        <div class="w3-row w3-padding-32">
+           <div class=" w3-margin-bottom">
+                <img src="./images/pics/1.jpg" style="width:100%" class="w3-hover-opacity">
+            </div>
+            <div class=" w3-margin-bottom">
+                <img src="./images/pics/2.jpg" style="width:100%" class="w3-hover-opacity">
+            </div>
+            <div class=" w3-margin-bottom">
+                <img src="./images/pics/3.jpg" style="width:100%" class="w3-hover-opacity">
+            </div>
+            <div class=" w3-margin-bottom">
+                <img src="./images/pics/6.jpg" style="width:100%" class="w3-hover-opacity">
+            </div>
+            <div class=" w3-margin-bottom">
+                <img src="./images/pics/10.jpg" style="width:100%" class="w3-hover-opacity">
+            </div>
+            <div class=" w3-margin-bottom">
+                <img src="./images/pics/5.jpg" style="width:100%" class="w3-hover-opacity">
+            </div>
+            <div class=" w3-margin-bottom">
+                <img src="./images/pics/4.jpg" style="width:100%" class="w3-hover-opacity">
+            </div>
+            <div class=" w3-margin-bottom">
+                <img src="./images/pics/7.jpg" style="width:100%" class="w3-hover-opacity">
+            </div>
+            <div class=" w3-margin-bottom">
+                <img src="./images/pics/8.jpg" style="width:100%" class="w3-hover-opacity">
+            </div>
+            <div class=" w3-margin-bottom">
+                <img src="./images/pics/9.jpg" style="width:100%" class="w3-hover-opacity">
+            </div>
+        </div>
     </div>
-  </div>
-   
+</div>
+
+<!-- Pics Section -->
+
+<div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="sponsor">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+        <div class="w3-row w3-padding-32">
+            <video src="./images/video/abfahrt.MP4" width="100%" height="100%" autoplay controls loop muted>
+                Ihr Browser kann dieses Video nicht wiedergeben.<br/>
+                Dieser Film zeigt eine Demonstration des video-Elements.
+                Sie können ihn unter <a href="#">Link-Addresse</a> abrufen.
+            </video>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- The Contact Section -->
+
+<div class=" w3-black" id="contact">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+        <h2 class="w3-wide w3-center">CONTACT</h2>
+        <div class="w3-row w3-padding-32">
+            <div class="w3-col m6 w3-large w3-margin-bottom">
+                <p>Patrick Stadelmann</p>
+                <i class="fa fa-map-marker" style="width:30px"></i> St. Margarethen, TG<br>
+                <i class="fa fa-phone" style="width:30px"></i> Phone: +79 339 40 81<br>
+                <i class="fa fa-envelope" style="width:30px"> </i> Email: patrick.stadelmann@outlook.com<br>
+            </div>
+            <div class="w3-col m6 w3-large w3-margin-bottom">
+                <p>Marc Kissling</p>
+                <i class="fa fa-map-marker" style="width:30px"></i> Zuzwil, SG<br>
+                <i class="fa fa-phone" style="width:30px"></i> Phone: +76 417 14 15<br>
+                <i class="fa fa-envelope" style="width:30px"> </i> Email: marc.kissling@outlook.com<br>
+            </div>
+        </div>
+    </div>
+</div>
+
 <!-- Footer -->
 <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
-  <p class="w3-medium">Created by Marc Kissling</p>
+    <p class="w3-medium">Created by Marc Kissling</p>
 </footer>
 
 <script>
