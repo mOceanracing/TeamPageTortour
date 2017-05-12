@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mlt LC_NUMERIC="de_DE" version="6.5.0" title="Shotcut version 17.05.03" producer="main bin">
+  <profile description="automatic" width="1920" height="1080" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="1920" display_aspect_den="1080" frame_rate_num="48000" frame_rate_den="1001" colorspace="709"/>
+  <producer id="producer0" title="Anonymous Submission" in="00:00:00,000" out="00:12:00,709">
+    <property name="length">00:12:00,730</property>
+    <property name="eof">pause</property>
+    <property name="resource">E:/GoPro_Backup/GOPR0042.MP4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">65390c7a8e4c728c3370d7cafbfc697c</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer1" title="Anonymous Submission" in="00:00:00,000" out="00:02:58,579">
+    <property name="length">00:02:58,600</property>
+    <property name="eof">pause</property>
+    <property name="resource">E:/GoPro_Backup/GOPR0044.MP4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">cb333784410ab6fc9fe825a47c3b9c7a</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer2" title="Anonymous Submission" in="00:00:00,000" out="00:02:20,792">
+    <property name="length">00:02:20,812</property>
+    <property name="eof">pause</property>
+    <property name="resource">E:/GoPro_Backup/GOPR0045.MP4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">584d44da9323c8676f5a8b785b7bc9d3</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer3" title="Anonymous Submission" in="00:00:00,000" out="00:02:20,792">
+    <property name="length">00:02:20,812</property>
+    <property name="eof">pause</property>
+    <property name="resource">E:/GoPro_Backup/GOPR0045.MP4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">584d44da9323c8676f5a8b785b7bc9d3</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">GOPR0045.MP4</property>
+    <property name="shotcut:detail">E:/GoPro_Backup/GOPR0045.MP4</property>
+    <property name="shotcut:comment"></property>
+  </producer>
+  <producer id="producer4" title="Anonymous Submission" in="00:00:00,000" out="00:02:20,792">
+    <property name="length">00:02:20,812</property>
+    <property name="eof">pause</property>
+    <property name="resource">E:/GoPro_Backup/GOPR0045.MP4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">584d44da9323c8676f5a8b785b7bc9d3</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">GOPR0045.MP4</property>
+    <property name="shotcut:detail">E:/GoPro_Backup/GOPR0045.MP4</property>
+    <property name="shotcut:comment"></property>
+  </producer>
+  <playlist id="main bin" title="Shotcut version 17.05.03">
+    <property name="xml_retain">1</property>
+    <entry producer="producer0" in="00:00:00,000" out="00:12:00,709"/>
+    <entry producer="producer1" in="00:00:00,000" out="00:02:58,579"/>
+    <entry producer="producer2" in="00:00:00,000" out="00:02:20,792"/>
+    <entry producer="producer3" in="00:00:21,250" out="00:01:06,903"/>
+    <entry producer="producer4" in="00:00:21,250" out="00:01:06,903"/>
+  </playlist>
+  <producer id="black" in="00:00:00,000" out="00:01:26,526">
+    <property name="length">00:01:26,547</property>
+    <property name="eof">pause</property>
+    <property name="resource">black</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00,000" out="00:01:26,526"/>
+  </playlist>
+  <producer id="producer5" title="Anonymous Submission" in="00:00:00,000" out="00:12:00,709">
+    <property name="length">00:12:00,730</property>
+    <property name="eof">pause</property>
+    <property name="resource">E:/GoPro_Backup/GOPR0042.MP4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">65390c7a8e4c728c3370d7cafbfc697c</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">GOPR0042.MP4</property>
+    <property name="shotcut:detail">E:/GoPro_Backup/GOPR0042.MP4</property>
+    <property name="shotcut:comment"></property>
+  </producer>
+  <producer id="producer6" title="Anonymous Submission" in="00:00:00,000" out="00:02:20,792">
+    <property name="length">00:02:20,812</property>
+    <property name="eof">pause</property>
+    <property name="resource">E:/GoPro_Backup/GOPR0045.MP4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">584d44da9323c8676f5a8b785b7bc9d3</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">GOPR0045.MP4</property>
+    <property name="shotcut:detail">E:/GoPro_Backup/GOPR0045.MP4</property>
+    <property name="shotcut:comment"></property>
+  </producer>
+  <producer id="producer7" title="Anonymous Submission" in="00:00:00,000" out="00:12:00,709">
+    <property name="length">00:12:00,730</property>
+    <property name="eof">pause</property>
+    <property name="resource">E:/GoPro_Backup/GOPR0042.MP4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">65390c7a8e4c728c3370d7cafbfc697c</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">GOPR0042.MP4</property>
+    <property name="shotcut:detail">E:/GoPro_Backup/GOPR0042.MP4</property>
+    <property name="shotcut:comment"></property>
+  </producer>
+  <producer id="producer8" title="Anonymous Submission" in="00:00:00,000" out="00:02:58,579">
+    <property name="length">00:02:58,600</property>
+    <property name="eof">pause</property>
+    <property name="resource">E:/GoPro_Backup/GOPR0044.MP4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">cb333784410ab6fc9fe825a47c3b9c7a</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">GOPR0044.MP4</property>
+    <property name="shotcut:detail">E:/GoPro_Backup/GOPR0044.MP4</property>
+    <property name="shotcut:comment"></property>
+  </producer>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <property name="shotcut:lock">1</property>
+    <entry producer="producer5" in="00:06:24,900" out="00:06:44,732"/>
+    <entry producer="producer6" in="00:00:37,663" out="00:00:48,924"/>
+    <entry producer="producer7" in="00:01:32,407" out="00:01:54,805"/>
+    <entry producer="producer8" in="00:00:31,469" out="00:01:04,421"/>
+  </playlist>
+  <producer id="producer9" title="Anonymous Submission" in="00:00:00,000" out="00:01:26,526">
+    <property name="length">00:01:26,547</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Marc100/Music/music.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">f20ba091d348b3d7e25d287d7c5bdd87</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">music.mp3</property>
+    <property name="shotcut:detail">C:/Users/Marc100/Music/music.mp3</property>
+    <property name="shotcut:comment"></property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <playlist id="playlist1">
+    <property name="shotcut:audio">1</property>
+    <property name="shotcut:name">A1</property>
+    <property name="shotcut:lock">1</property>
+    <entry producer="producer9" in="00:00:00,000" out="00:01:26,526"/>
+  </playlist>
+  <tractor id="tractor0" title="Shotcut version 17.05.03" global_feed="1" in="00:00:00,000" out="00:01:26,526">
+    <property name="shotcut">1</property>
+    <property name="shotcut:scaleFactor">0,495619</property>
+    <track producer="background"/>
+    <track producer="playlist0" hide="audio"/>
+    <track producer="playlist1" hide="video"/>
+    <transition id="transition0">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition1">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="version">0,9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="disable">1</property>
+    </transition>
+    <transition id="transition2">
+      <property name="a_track">0</property>
+      <property name="b_track">2</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+  </tractor>
+</mlt>
